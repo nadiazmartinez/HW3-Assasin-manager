@@ -139,7 +139,7 @@ public class AssassinManagerTest {
         Assert.assertFalse(manager.killRingContains("drhAn"));
     }
 
-    /*@Test
+    @Test
     public void killNegativeTest(){
         try{
             List<String> list1= new ArrayList<String>();
